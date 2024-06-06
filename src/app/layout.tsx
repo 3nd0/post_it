@@ -1,5 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
+import Dashboard from '../components/Dashboard'
 
 export const metadata: Metadata = {
   title: 'Post it',
@@ -15,6 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className="flex">
+          <Dashboard/>
           {children}
         </div>
       </body>
