@@ -1,8 +1,12 @@
 import NavBar from "./NavBar"
+import SideBar from "./SideBar"
 
 const Dashboard = () => {
     return (
-        <NavBar/>
+        <>
+            <NavBar/>
+            <SideBar/>
+        </>
     )
 }
 
