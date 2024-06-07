@@ -1,4 +1,4 @@
 export type MenuItems = {
-    name: string
-    path: string
+  name: string
+  path: string
 }
