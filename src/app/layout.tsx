@@ -1,10 +1,10 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import SideBar from '@/components/SideBar'
+import "./globals.css"
+import type { Metadata } from "next"
+import Dashboard from "../components/Dashboard"
 
 export const metadata: Metadata = {
-  title: 'Post it',
-  description: 'Take notes',
+  title: "Post it",
+  description: "Take notes",
 }
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className="flex">
-          <SideBar />
+          <Dashboard />
           {children}
         </div>
       </body>
