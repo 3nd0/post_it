@@ -1,6 +1,6 @@
 import React from "react"
 import Link from "next/link"
-import type { MenuItems } from "./types/SideBar"
+import type { MenuItems } from "./types/"
 
 const items: MenuItems[] = [
   {
